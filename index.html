@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Search</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>University Search</h1>
+    <div class="header">
+
+        <p id="studentInfo"></p>
+        <button onclick="resetPage()" id="reset">Reset</button>
+
+        <label for="countryInput">Enter Country:</label>
+        <input type="text" id="countryInput" placeholder="e.g., United States" />
+    </div>
+    <button onclick="searchUniversities()">Search</button>
+    <div id="result"></div>
+
+</body>
+
+</html>
